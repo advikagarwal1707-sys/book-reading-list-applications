@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Reading List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <h1>My Book Reading List</h1>
+    <p>Add books and mark them as read when you finish.</p>
+    <form id="book-form">
+      <label for="book-title">Book title</label>
+      <input id="book-title" type="text" placeholder="Enter a book title" required>
+      <label for="book-author">Author (optional)</label>
+      <input id="book-author" type="text" placeholder="Enter author name">
+      <button type="submit">Add Book</button>
+    </form>
+    <p id="book-count">0 books</p>
+    <ul id="book-list"></ul>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
